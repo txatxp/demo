@@ -6,5 +6,8 @@ module.exports = defineConfig({
     historyApiFallback: true,
     allowedHosts: "all",
     host: "localhost", //对应的主机名
+    client: {
+      overlay: false,
+    },
   },
 });
