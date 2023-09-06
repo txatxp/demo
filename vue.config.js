@@ -5,6 +5,6 @@ module.exports = defineConfig({
   devServer: {
     historyApiFallback: true,
     allowedHosts: "all",
-    // host: 'localhost',//对应的主机名
+    host: "localhost", //对应的主机名
   },
 });
