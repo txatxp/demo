@@ -1,9 +1,9 @@
 <template>
   <div class="p-jsx">
     <Content>
-      <Title></Title>
-      <DingGuaGua></DingGuaGua>
-      <div>我是一个jsx组件</div>
+        <Title></Title>
+        <DingGuaGua></DingGuaGua>
+        <div>我是一个jsx组件</div>  
     </Content>
   </div>
 </template>

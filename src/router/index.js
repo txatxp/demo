@@ -13,6 +13,7 @@ const routes = [
   { path: '/h', component: () => import('../views/h/index.vue') },
   { path: '/jsx', component: () => import('../views/jsx/index.vue') },
   { path: '/inline/comp', component: () => import('../views/inlineComp/index.vue') },
+  { path: '/slots/scope', component: () => import('../views/slotsScope/index.vue') },
 ]
 
 

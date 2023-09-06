@@ -4,11 +4,13 @@ export default {
   data() {
     return {};
   },
+  created() {
+    // this.$scopedSlots.default({ row: { name: 'txp' }})
+  },
   render() {
 
     // 获取vnode
     const slot = this.$slots.default;
-
     // 过滤自定义组件vnode
     const vnode = slot.filter((item) => {
       return (
