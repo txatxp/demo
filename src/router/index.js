@@ -9,15 +9,13 @@ Vue.use(VueRouter)
 // 或者，只是一个组件配置对象。
 // 我们晚点再讨论嵌套路由。
 const routes = [
-  { path: '/', component: () => import('../views/indexView.vue') },
-  { path: '/foo', component: () => import('../views/fooView.vue') },
-  { path: '/bar', component: () => import('../views/barView.vue') },
+  { path: '/', component: () => import('../views/index.vue') },
   { path: '/h', component: () => import('../views/h/index.vue') },
   { path: '/jsx', component: () => import('../views/jsx/index.vue') },
+  { path: '/inline/comp', component: () => import('../views/inlineComp/index.vue') },
 ]
 
-// 3. 创建 router 实例，然后传 `routes` 配置
-// 你还可以传别的配置参数, 不过先这么简单着吧。
+
 const router = new VueRouter({
   routes // (缩写) 相当于 routes: routes
 })
