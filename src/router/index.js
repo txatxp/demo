@@ -11,7 +11,8 @@ Vue.use(VueRouter)
 const routes = [
   { path: '/', component: () => import('../views/indexView.vue') },
   { path: '/foo', component: () => import('../views/fooView.vue') },
-  { path: '/bar', component: () => import('../views/barView.vue') }
+  { path: '/bar', component: () => import('../views/barView.vue') },
+  { path: '/h', component: () => import('../views/h/index.vue') },
 ]
 
 // 3. 创建 router 实例，然后传 `routes` 配置
