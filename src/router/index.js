@@ -15,6 +15,7 @@ const routes = [
   { path: '/inline/comp', component: () => import('../views/inlineComp/index.vue') },
   { path: '/slots/scope', component: () => import('../views/slotsScope/index.vue') },
   { path: '/assembly/package', component: () => import('../views/assemblyPackage/index.vue') },
+  { path: '/secondary/assembly/package', component: () => import('../views/secondaryAssemblyPackage/index.vue') },
 ]
 
 
