@@ -4,6 +4,7 @@
       @change="getChangeVal"
       @focus="focus"
       @blur="blur"
+      @command="handleCommand"
       :type="type"
       v-model="val"
       :placeholder="placeholder"
@@ -38,6 +39,10 @@ export default {
     },
     blur() {
       console.log('失去焦点')
+    },
+    handleCommand(command) {
+      this.type = command
+      // this.$message('click on item ' + command);
     }
   },
 };
