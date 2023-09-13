@@ -29,7 +29,7 @@
         width="200"
         sortable
       ></SimpleTableColumn>
-      <SimpleTableColumn prop="address" label="绝招"></SimpleTableColumn>
+      <SimpleTableColumn prop="uniqueSkill" label="绝招"></SimpleTableColumn>
     </SimpleTable>
     <button style="width: 100px; height: 50px" @click="add">添加数据</button>
     <button style="width: 100px; height: 50px" @click="figureChoose">
@@ -53,25 +53,25 @@ export default {
           no: 0,
           date: "2023-09-12",
           name: "乔峰",
-          address: "一个降龙十八掌",
+          uniqueSkill: "一个降龙十八掌",
         },
         {
           no: 1,
           date: "2023-09-13",
           name: "张无忌",
-          address: "乾坤大挪移",
+          uniqueSkill: "乾坤大挪移",
         },
         {
           no: 2,
           date: "2023-09-14",
           name: "杨过",
-          address: "独孤求败剑法",
+          uniqueSkill: "独孤求败剑法",
         },
         {
           no: 3,
           date: "2023-09-15",
           name: "蓉儿",
-          address: "打狗棒法",
+          uniqueSkill: "打狗棒法",
         },
       ],
       currentPage: 1,
@@ -83,8 +83,8 @@ export default {
       let one = {
         no: 5,
         date: "2023-09-15",
-        name: "我是一个吊儿郎当的好男儿！",
-        address: "不详",
+        name: "菩提祖师",
+        uniqueSkill: "不详！",
       };
       this.tableData.push(one);
     },
