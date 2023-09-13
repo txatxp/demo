@@ -5,7 +5,8 @@ Vue.use(Vuex)
 
 const store = new Vuex.Store({
   state: {
-    slotJsxVnode: []
+    slotJsxVnodeDefault: [],
+    slotJsxVnodeAppend: []
   }
 })
 export default store

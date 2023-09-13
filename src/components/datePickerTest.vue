@@ -1,14 +1,15 @@
 <template>
-  <el-date-picker
-    v-model="dateVal"
-    :type="type"
-    placeholder="请输入日期"
-    :size="size"
-    :value-format="valueFormat"
-    :format="valueFormat"
-    @change="change"
-    @focus="focus"
-    @blur="blur"
+    <!-- 封装日期组件 -->
+    <el-date-picker
+      v-model="dateVal"
+      :type="type"
+      placeholder="请输入日期"
+      :size="size"
+      :value-format="valueFormat"
+      :format="valueFormat"
+      @change="change"
+      @focus="focus"
+      @blur="blur"
       />
 </template>
 <script>

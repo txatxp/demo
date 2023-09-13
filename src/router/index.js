@@ -16,6 +16,7 @@ const routes = [
   { path: '/slots/scope', component: () => import('../views/slotsScope/index.vue') },
   { path: '/assembly/package', component: () => import('../views/assemblyPackage/index.vue') },
   { path: '/secondary/assembly/package', component: () => import('../views/secondaryAssemblyPackage/index.vue') },
+  { path: '/el-table', component: () => import('../views/simpleTable/index.vue') },
 ]
 
 
