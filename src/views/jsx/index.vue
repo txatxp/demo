@@ -1,9 +1,10 @@
 <template>
   <div class="p-jsx">
+    <button @click="show = !show">改变</button>
     <Content>
         <Title></Title>
         <DingGuaGua></DingGuaGua>
-        <div>我是一个jsx组件</div>  
+        <div v-if="show">我是一个jsx组件</div>  
     </Content>
   </div>
 </template>
@@ -18,8 +19,11 @@ export default {
     Title,
     DingGuaGua
   },
+  created() {
+  },
   data() {
     return {
+      show: true
     }
   }
 }

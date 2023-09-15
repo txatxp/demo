@@ -29,10 +29,8 @@ export default {
     console.log(slot);
     return (
       <div>
-        {/* 直接渲染 */}
         { dom }
 
-        {/* 通过参数传递vnode */}
         <Describe vnodes={vnode}></Describe>
       </div>
     );
