@@ -10,6 +10,10 @@ Vue.use(VueRouter);
 // 我们晚点再讨论嵌套路由。
 const routes = [
   { path: "/", component: () => import("../views/index.vue") },
+  {
+    path: "/intersection/observer",
+    component: () => import("../views/IntersectionObserver/index.vue"),
+  },
   { path: "/h", component: () => import("../views/h/index.vue") },
   { path: "/jsx", component: () => import("../views/jsx/index.vue") },
   {
@@ -31,6 +35,10 @@ const routes = [
   {
     path: "/simple-table",
     component: () => import("../views/simpleTable/index.vue"),
+  },
+  {
+    path: "/form-test",
+    component: () => import("../views/form/index.vue"),
   },
 ];
 

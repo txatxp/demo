@@ -5,7 +5,7 @@ module.exports = defineConfig({
   devServer: {
     historyApiFallback: true,
     allowedHosts: "all",
-    host: "localhost", //对应的主机名
+    host: "0.0.0.0", //对应的主机名
     client: {
       overlay: false,
     },

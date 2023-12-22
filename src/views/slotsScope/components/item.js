@@ -3,6 +3,7 @@ export default {
   data() {
       return {}
   },
+  props: ['name'],
   created() {
     /**
      * 这里可以根据自己的需求组装、分类this.$scopedSlots.default在不同时机不同地方

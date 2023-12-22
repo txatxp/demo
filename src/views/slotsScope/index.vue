@@ -2,7 +2,7 @@
   <div class="p-slots-scope">
     <el-button @click="visibility = !visibility">改变{{ visibility }}</el-button>
     <Box>
-      <Item>
+      <Item name="zs">
         <!-- 默认作用域 -->
         <template #default="{ name, age }">
           {{ name }}--{{ age }}

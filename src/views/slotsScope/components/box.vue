@@ -19,6 +19,8 @@ export default {
     return {
       visibility: false
     }
-  }
+  },
+  created() {
+  },
 };
 </script>
